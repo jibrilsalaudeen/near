@@ -1,0 +1,540 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.bg1{
+	background-color: #00141C;
+}
+.bg2{
+	background-image: url('../images/Group 11.jpg');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/Group 11.jpg);
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1005.5px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  position: relative;
+}
+.bg3{
+	background: rgba(0, 20, 28, 0.2) !important;
+	height: 1294px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg4{
+	background: rgba(204, 208, 210, 0.38);
+	
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: ;
+}
+.bg5{
+	background-image: url('../images/Group 13.png');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/Group 11.jpg);
+  background-color: #cccccc; /* Used if the image is unavailable */
+   
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+.bg6{
+	background: #00141C;
+	height: 1918px;
+}
+.logo{
+	position: absolute;
+	left: 7.64%;
+	right: 84.02%;
+	top: 6.44%;
+	bottom: 88.44%;
+}
+.a{
+	position: relative;
+	left: 0.1%;
+	right: 48.94%;
+	top: 0.17%;
+	bottom: 0.17%;
+	border: none !important;
+}
+.b{
+	position: absolute;
+left: 50%;
+right: 0.1%;
+top: 0.17%;
+bottom: 0.17%;
+}
+.c{
+	position: absolute;
+	left: 35.37%;
+	right: 34.68%;
+	top: 3.67%;
+	bottom: 3.57%;
+}
+.lo{
+	position: relative;
+}
+.d{
+	position: relative;
+	
+	left: 195px;
+	
+}
+.e{
+	position: absolute;
+	
+	left: 45px;
+	
+}
+
+.m{
+	position: absolute;
+	
+	left: 59px;
+	top: 3875px;
+}
+.n{
+	position: absolute;
+	
+	left: 1011px;
+	top: 3851px;
+}
+.o{
+	position: absolute;
+	
+	left: 293px;
+	top: 3897px;
+}
+.p{
+	position: absolute;
+	
+	left: 764px;
+	top: 3892px;
+}
+.q{
+	position: absolute;
+	
+	left: 474px;
+	top: 3747px;
+}
+.r{
+	position: absolute;
+	
+	left: -28px;
+	top: 4404px;
+}
+.s{
+	position: absolute;
+	
+	left: 822px;
+	top: 4603px;
+}
+.right{
+	text-align: center;
+	margin-top: -700px;
+	margin-left: 800px;
+}
+.a1{
+	position: relative;
+	
+	
+	top: 0px;
+}
+.a2{
+	position: relative;
+	
+	
+	top: 0px;;
+}
+.a3{
+	position: relative;
+	
+	
+	top: 0px;;
+}
+.a4{
+	position: relative;
+	
+	
+	top: 0px;;
+}
+.left{
+	margin-left: 900px;
+}
+.dd{
+	margin-top: 1570px;
+}
+hr{
+	background-color: white;
+	margin-top: 75px;
+}
+i{
+	color: white;
+}
+.adj{
+	margin-top: -800px
+}
+
+.sama{
+  margin-b: 50px;
+}
+.z{
+  margin-right: 160px;
+  margin-left: 60px;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  /* Styles */
+  .c{
+  	width: 40%
+  }
+  .logo{
+  	width: 15%
+  }
+  .a{
+  	width: 50%
+  	height: 1000px;
+  }
+  .lo{
+  	width: 100%
+  }
+  .b{
+  	width: 40.6%
+  	height: 1000px;
+  }
+  .m, .n, .o, .p, .q{
+  	width: 6%
+  	margin-top: 1000px
+  }
+  .d, .e{
+  	width: 50%
+  }
+  .adj{
+  	margin-top: -70px !important;
+  }
+  .m, .n, .o, .p, .q, .s{
+  	width: 6%
+  	margin-top: 1000px
+  	overflow-x: hidden;
+  }
+ 
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+  /* Styles */
+  .c{
+  	width: 40%
+  }
+  .logo{
+  	width: 15%
+  }
+  .a{
+  	width: 50%
+  	height: 1000px;
+  }
+  .lo{
+  	width: 50%
+  }
+  .b{
+  	width: 40.6%
+  	height: 1000px;
+  }
+  .m, .n, .o, .p, .q{
+  	width: 6%
+  	margin-top: 1000px
+  }
+  .d, .e{
+  	width: 50%
+  }
+  .adj{
+  	margin-top: 10px;
+  }
+  .m, .n, .o, .p, .q, .s{
+  	width: 6%
+  	margin-top: 1000px
+  	overflow-x: hidden;
+  }
+ }
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+  /* Styles */
+  .c{
+  	width: 40%
+  }
+  .logo{
+  	width: 15%
+  }
+  .a{
+  	width: 50%
+  	height: 1000px;
+  }
+  .lo{
+  	width: 100%
+  }
+  .b{
+  	width: 40.6%
+  	height: 1000px;
+  }
+  .m, .n, .o, .p, .q{
+  	width: 6%
+  	margin-top: 1000px
+  }
+  .d, .e{
+  	width: 50%
+  }
+  .adj{
+  	margin-top: 10px;
+  }
+  .m, .n, .o, .p, .q, .s{
+  	width: 6%
+  	margin-top: 1000px
+  	overflow-x: hidden;
+  }
+ 
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  /* Styles */
+  .c{
+  	width: 30%
+  }
+  .lo{
+  	width: 100%
+  }
+  .d, .e{
+  	width: 100%
+  }
+  .adj{
+  	margin-top: -500px;
+  }
+  .right{
+  	text-align: center;
+	margin-top: -700px;
+	margin-left: 500px;
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+  /* Styles */
+  .c{
+  	width: 30%
+  }
+  .lo{
+  	width: 100%
+  }
+  .d, .e{
+  	width: 100%
+  }
+  .adj{
+  	margin-top: -500px;
+  }
+  .right{
+  	text-align: center;
+	margin-top: -700px;
+	margin-left: 500px;
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+  /* Styles */
+  .c{
+  	width: 30%
+  }
+  .lo{
+  	width: 100%
+  }
+  .d, .e{
+  	width: 100%
+  }
+  .adj{
+  	margin-top: -500px;
+  }
+  .right{
+  	text-align: center;
+	margin-top: -700px;
+	margin-left: 500px;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+  /* Styles */
+  .c{
+  	width: 30%
+  }
+  .lo{
+  	width: 100%
+  }
+  .d, .e{
+  	width: 100%
+  }
+  .adj{
+  	margin-top: -500px;
+  }
+  .adj1{
+  	margin-top: 100px;
+  }
+  .bg3{
+  	height: 894px;
+  }
+  .bg2 .bg4{
+  	height: 705.5px;
+  }
+  .m, .n, .o, .p, .q, .s{
+  	width: 24%
+  }
+  .dd{
+  	margin-top: -50px
+  }
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+  /* Styles */
+  .c{
+  	width: 30%
+  }
+  .lo{
+  	width: 100%
+  }
+  .d, .e{
+  	width: 100%
+  }
+  .adj{
+  	margin-top: -500px;
+  }
+  .adj1{
+  	margin-top: 100px;
+  }
+  
+  .bg3{
+  	height: 894px;
+  }
+  .bg2 .bg4{
+  	height: 705.5px;
+  }
+  .m, .n, .o, .p, .q, .s{
+  	width: 24%
+  }
+  .dd{
+  	margin-top: -50px
+  }
+
+}
+
+/*Animations general setting*/
+:root {
+  --animate-duration: 4500ms;
+  --animate-delay: 0.9s;
+}
+
+
+
+ /* Style the Image Used to Trigger the Modal */
+.myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.clickable:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#captionText {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #captionText {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+} 
+
+
+
+
+
+
